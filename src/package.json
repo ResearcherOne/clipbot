@@ -1,0 +1,31 @@
+{
+  "name": "clipbot",
+  "version": "1.0.0",
+  "description": "This bot is used to distribute plain text over Telegram. Mainly intended to fetch clipboard from embedded systems over terminal pretty easily.y",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ResearcherOne/clipbot.git"
+  },
+  "keywords": [
+    "clip",
+    "bot",
+    "clipbot",
+    "telegram",
+    "telegraf"
+  ],
+  "author": "birkan kolcu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ResearcherOne/clipbot/issues"
+  },
+  "homepage": "https://github.com/ResearcherOne/clipbot#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "telegraf": "^3.36.0"
+  }
+}
